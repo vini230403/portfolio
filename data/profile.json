@@ -70,13 +70,18 @@
   ],
   "portfolio": [
     {
-      "name": "Curso Ministrado na DIO para a criação de uma Pokedex",
-      "url": "https://github.com/RenanJPaula/js-developer-pokedex",
+      "name": "Mini Blog",
+      "url": "https://github.com/vini230403/projetos_react/tree/main/MINI_BLOG/miniblog",
       "github": true
     },
     {
-      "name": "Curso Ministrado na DIO para a criação de uma página de portfolio",
-      "url": "https://github.com/RenanJPaula/js-developer-portfolio",
+      "name": "Git Find",
+      "url": "https://github.com/vini230403/projetos_react/tree/main/GIT_FIND/gitfind",
+      "github": true
+    },
+    {
+      "name": "Git Wiki",
+      "url": "https://github.com/vini230403/projetos_react/tree/main/WIKI_GITHUB/wikigithub",
       "github": true
     }
   ],
