@@ -106,7 +106,7 @@ function updateProfessionalExperience(profileData) {
         let professionalHTML = `
             <li>
                 <h3 >${professional.name}</h3>
-                <p >${professional.date}</p>
+                <p class="date">${professional.date}</p>
                 <p >${professional.description}</p>
             </li>
         `;
