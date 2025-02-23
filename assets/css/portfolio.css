@@ -27,7 +27,7 @@
     margin-bottom: .5rem
 }
 
-.portfolio li .title.github::before {
+.portfolio li h3.github::before {
     content: '';
     display: inline-block;
     width: 1.25rem;
@@ -37,5 +37,16 @@
     margin-right: .5rem;
     background-image: url('/assets/icons/github.svg');
     
+}
+
+.portfolio hr {
+    width: 96%;
+    height: 1px; 
+    background-color: #fff; 
+    border: none; 
+    margin: 1rem auto; 
+    margin-left: 15px;
+    margin-bottom: 20px;
+    margin-top: 0;
 }
 

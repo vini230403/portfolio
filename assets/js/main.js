@@ -81,14 +81,43 @@ function getLanguageCode(language) {
 
 function updatePortfolio(profileData) {
     const portfolio = document.getElementById('profile.portfolio')
-    portfolio.innerHTML = profileData.portfolio.map(project => {
-        return `
+
+    portfolio.innerHTML = profileData.portfolio.map((project, index) => {
+        let projectHTML = `
             <li>
-                <h3>${project.github ? 'class="github"' : ''}>${project.name}</h3>
-                <a> href="${project.url}" target="_blank">${project.url}</a>
-            </li>    
-        `
-    }).join('')
+                <h3 ${project.github ? 'class="github"' : ''}>${project.name}</h3>
+                <a href="${project.url}" target="_blank">${project.url}</a>
+            </li>
+        `;
+
+        
+        if (index < profileData.portfolio.length - 1) {
+            projectHTML += '<hr>';
+        }
+
+        return projectHTML;
+    }).join('');
+}
+
+function updateProfessionalExperience(profileData) {
+    const professionalExperience = document.getElementById('profile.professionalExperience')
+
+    professionalExperience.innerHTML = profileData.professionalExperience.map((professional, index) => {
+        let professionalHTML = `
+            <li>
+                <h3 >${professional.name}</h3>
+                <p >${professional.date}</p>
+                <p >${professional.description}</p>
+            </li>
+        `;
+
+        
+        if (index < profileData.professionalExperience.length - 1) {
+            professionalHTML += '<hr>';
+        }
+
+        return professionalHTML;
+    }).join('');
 }
 
 
@@ -99,4 +128,5 @@ function updatePortfolio(profileData) {
     updateHardSkills(profileData)
     updateLanguages(profileData)
     updatePortfolio(profileData)
+    updateProfessionalExperience(profileData)
 })()
