@@ -22,18 +22,10 @@
 }
 
 .skills .tools .title {
-    margin-top: 1rem;
-    
+    margin-top: 1rem; 
 }
 
-.skills .tools ul {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    margin-left: 50px;
-}
+
 
   
 #profile\.skills\.hardSkills li {
@@ -52,7 +44,8 @@
   }
 
 
-.skills .personal ul {
+.skills .personal ul,
+.skills .tools ul {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -67,7 +60,8 @@
     margin-left: 15px;
 }
 
-.skills .personal ul li {
+.skills .personal ul li,
+.skills .tools ul li {
     margin-left: 2rem;
     padding: .5rem;
 }

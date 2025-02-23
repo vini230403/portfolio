@@ -33,15 +33,6 @@ h2 {
     text-align: start;
 }
 
-hr {
-    width: 101%;
-    height: 1px; 
-    background-color: #fff; 
-    border: none; 
-    margin: 1rem auto; 
-    margin-left: -25px;
-    margin-top: -10px;
-}
 
 @media only screen and (min-width: 768px) {
 

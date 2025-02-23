@@ -47,26 +47,26 @@ function updateLanguages(profileData) {
 
     profileData.languages.forEach((language, index) => {
         
-        const [langName, level] = language.split(' (');
-        const langCode = getLanguageCode(langName); 
+        const [langName, level] = language.split(' (')
+        const langCode = getLanguageCode(langName)
         
         
-        const li = document.createElement('li');
-        li.className = `${langCode} title`;
-        li.textContent = langName;
+        const li = document.createElement('li')
+        li.className = `${langCode} title`
+        li.textContent = langName
 
         
-        const ul = document.createElement('ul');
-        const levelItem = document.createElement('li');
-        levelItem.innerHTML = `<p>${level ? level.replace(')', '') : ''}</p>`;
-        ul.appendChild(levelItem);
+        const ul = document.createElement('ul')
+        const levelItem = document.createElement('li')
+        levelItem.innerHTML = `<p>${level ? level.replace(')', '') : ''}</p>`
+        ul.appendChild(levelItem)
         
-        languages.appendChild(li);
-        languages.appendChild(ul);
+        languages.appendChild(li)
+        languages.appendChild(ul)
 
         if (index < profileData.languages.length - 1) {
-            const hr = document.createElement('hr');
-            languages.appendChild(hr);
+            const hr = document.createElement('hr')
+            languages.appendChild(hr)
         }
     });
 }
@@ -120,6 +120,20 @@ function updateProfessionalExperience(profileData) {
     }).join('');
 }
 
+function updateScholarity(profileData) {
+    const scholarity = document.getElementById('profile.educations.scholarity')
+    console.log(scholarity)
+
+    scholarity.innerHTML = profileData.educations.scholarity.map(education =>
+        `
+            <li>
+                <h3>${education.school}</h3>
+                <p class="date">${education.training}</p>
+                <p>${education.period}</p>
+            </li>
+        `
+    ).join('')
+}
 
 (async () => {
     const profileData = await fetchProfileData()
@@ -129,4 +143,5 @@ function updateProfessionalExperience(profileData) {
     updateLanguages(profileData)
     updatePortfolio(profileData)
     updateProfessionalExperience(profileData)
+    updateScholarity(profileData)
 })()

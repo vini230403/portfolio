@@ -68,6 +68,20 @@
     "Português BR (Avançado)",
     "Inglês USA (Intermediário)"
   ],
+  "educations": {
+    "scholarity": [
+      {
+        "school":"Universidade Paulista(UNIP)",
+        "training":"Análise e desenvolvimento de sistemas",
+        "period":"Fev de 2024 - Dez de 2025"
+      },
+      {
+        "school":"ETEC - Escola Técnica Estadual de São Paulo(São Mateus)",
+        "training":"Técnico de informática para internet",
+        "period":"Jan de 2018 - Dez de 2020"
+      }
+    ]
+  },
   "portfolio": [
     {
       "name": "Mini Blog",
