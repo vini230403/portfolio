@@ -128,8 +128,24 @@ function updateScholarity(profileData) {
         `
             <li>
                 <h3>${education.school}</h3>
-                <p class="date">${education.training}</p>
-                <p>${education.period}</p>
+                <p class="study">${education.training}</p>
+                <p class="date">${education.period}</p>
+            </li>
+        `
+    ).join('')
+}
+
+function updateCourse(profileData) {
+    const course = document.getElementById('profile.educations.course')
+    console.log(course)
+
+    course.innerHTML = profileData.educations.course.map(education =>
+        `
+            <li>
+                <h3>${education.name}</h3>
+                <p class="study">${education.institution}</p>
+                <p class="date">${education.workload}</p>
+                <a href="${education.certificate}" target="_blank">${education.certificate}"</a>
             </li>
         `
     ).join('')
@@ -144,4 +160,7 @@ function updateScholarity(profileData) {
     updatePortfolio(profileData)
     updateProfessionalExperience(profileData)
     updateScholarity(profileData)
+    updateCourse(profileData)
 })()
+
+//https://bestof2024.openenglish.com/?id=0033r000043D6jvAAC

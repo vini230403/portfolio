@@ -71,16 +71,59 @@
   "educations": {
     "scholarity": [
       {
-        "school":"Universidade Paulista(UNIP)",
+        "school":"Universidade Paulista (UNIP)",
         "training":"Análise e desenvolvimento de sistemas",
         "period":"Fev de 2024 - Dez de 2025"
       },
       {
-        "school":"ETEC - Escola Técnica Estadual de São Paulo(São Mateus)",
+        "school":"ETEC - Escola Técnica Estadual de São Paulo (São Mateus)",
         "training":"Técnico de informática para internet",
         "period":"Jan de 2018 - Dez de 2020"
       }
+    ],
+    "course": [
+      {
+        "name":"Desenvolvimento Web Avançado com PHP, Laravel e Vue.JS",
+        "institution":"Instituição: Udemy",
+        "workload":"Carga horária: 57h - Cursando"
+      },
+      {
+        "name":"Formação React Developer - JavaScript, React, TypeScript",
+        "institution":"Instituição: Dio",
+        "workload":"Carga horária: 34h - Cursando"
+      },
+      {
+        "name":"Formação JavaScript Developer - JavaScript, HTML, CSS, API",
+        "institution":"Instituição: Dio",
+        "workload":"Carga horária: 39h - Cursando"
+      },
+      {
+        "name":"React do Zero a Maestria (c/ hooks, router, API, projetos) - JavaScript, CSS, HTML5, React, vite, firebase, node.js, mongoDB, TypeScript",
+        "institution":"Instituição: Udemy",
+        "workload":"Carga horária: 30,5h - Concluído",
+        "certificate":"https://www.udemy.com/certificate/UC-47eb6f0d-b4c4-44bd-bce4-eebcf5daf31d/"
+      },
+      {
+        "name":"Formação Github Certification - Github e Gitbash",
+        "institution":"Instituição: Dio",
+        "workload":"Carga horária: 10h - Concluído",
+        "certificate":"https://hermes.dio.me/certificates/INQC3YMP.pdf"
+      },
+      {
+        "name":"Computação em Nuvem Amazon AWS - AWS",
+        "institution":"Instituição: Udemy",
+        "workload":" Carga horária: 3h - Concluído",
+        "certificate":"https://www.udemy.com/certificate/UC-f7ec794a-10a8-4470-b875-7fb22dfbceb1/"
+      },
+      {
+        "name":"Algoritmo de Lógica de Programação - C, C#, C++, Java, Python",
+        "institution":"Instituição: Udemy",
+        "workload":" Carga horária: 30h - Concluído",
+        "certificate":"https://www.udemy.com/certificate/UC-cae457b6-e7d9-4540-acb6-658f21052ce9/"
+      }
     ]
+
+    
   },
   "portfolio": [
     {

@@ -10,7 +10,7 @@
 
 .educations .personal, 
 .educations .tools {
-    margin-bottom: 2rem; 
+    margin-bottom: .5rem; 
 }
 
 .educations .personal .title, 
@@ -26,6 +26,7 @@
     margin-top: 1rem;
 }
 
+
 .educations li p.date::before{
     content: '';
     display: inline-block;
@@ -35,4 +36,18 @@
     background-size: contain;
     margin-right: .5rem;
     background-image: url('/assets/icons/date.svg');
+    filter: brightness(0) invert(1);
 }
+
+.educations li p.study::before{
+    content: '';
+    display: inline-block;
+    width: 1.25rem;
+    height: 1.25rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: .5rem;
+    background-image: url('/assets/icons/study.svg');
+    filter: brightness(0) invert(1);
+}
+
