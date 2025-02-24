@@ -60,9 +60,22 @@ function updateLanguages(profileData) {
         const levelItem = document.createElement('li')
         levelItem.innerHTML = `<p>${level ? level.replace(')', '') : ''}</p>`
         ul.appendChild(levelItem)
-        
-        languages.appendChild(li)
-        languages.appendChild(ul)
+
+        if (langName === 'Inglês USA') {
+            const link = document.createElement('a')
+            link.href = 'https://bestof2024.openenglish.com/?id=0033r000043D6jvAAC'
+            link.textContent = 'https://bestof2024.openenglish.com/?id=0033r000043D6jvAAC'
+            link.target = '_blank'
+            link.className = 'language-link'
+            
+            languages.appendChild(li)
+            languages.appendChild(ul)
+            languages.appendChild(link)
+        } else {
+            languages.appendChild(li)
+            languages.appendChild(ul)
+        }
+
 
         if (index < profileData.languages.length - 1) {
             const hr = document.createElement('hr')
@@ -76,7 +89,7 @@ function getLanguageCode(language) {
         'Português BR': 'pt_br',
         'Inglês USA': 'us'
     };
-    return languageMap[language] || '';
+    return languageMap[language] || ''
 }
 
 function updatePortfolio(profileData) {
@@ -184,5 +197,3 @@ function updateCourse(profileData) {
 })()
 
 //https://bestof2024.openenglish.com/?id=0033r000043D6jvAAC
-//terminar css
-//arrumar "undefined"
