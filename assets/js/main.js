@@ -135,7 +135,6 @@ function updateProfessionalExperience(profileData) {
 
 function updateScholarity(profileData) {
     const scholarity = document.getElementById('profile.educations.scholarity')
-    console.log(scholarity)
 
     scholarity.innerHTML = profileData.educations.scholarity.map((education, index) =>{
         let educationHTML = 
@@ -157,7 +156,6 @@ function updateScholarity(profileData) {
 
 function updateCourse(profileData) {
     const course = document.getElementById('profile.educations.course')
-    console.log(course)
 
     course.innerHTML = profileData.educations.course.map((education, index) => {
 
