@@ -65,15 +65,8 @@
     ]
   },
   "languages": [
-    {
-      "name": "Português (BR)",
-      "level": "Avançado"
-    },
-    {
-      "name": "Inglês (US)",
-      "level": "Intermediário",
-      "link": "https://bestof2024.openenglish.com/?id=0033r000043D6jvAAC"
-    }
+    "Português BR (Avançado)",
+    "Inglês USA (Intermediário)"
   ],
   "educations": {
     "scholarity": [

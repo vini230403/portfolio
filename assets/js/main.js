@@ -46,30 +46,19 @@ function updateLanguages(profileData) {
     
 
     profileData.languages.forEach((language, index) => {
-         
-        const{name, level, link} = language
+        
+        const [langName, level] = language.split(' (')
+        const langCode = getLanguageCode(langName)
         
         
         const li = document.createElement('li')
-        li.className = `${getLanguageCode(name)} title`
-        
-
-
-        if (link) {
-            const anchor = document.createElement('a');
-            anchor.href = link;
-            anchor.target = '_blank';
-            anchor.textContent = name;
-            li.appendChild(anchor);
-        } else {
-            li.textContent = name;
-        }
-
+        li.className = `${langCode} title`
+        li.textContent = langName
 
         
         const ul = document.createElement('ul')
         const levelItem = document.createElement('li')
-        levelItem.innerHTML = `<p>${level || ''}</p>`
+        levelItem.innerHTML = `<p>${level ? level.replace(')', '') : ''}</p>`
         ul.appendChild(levelItem)
         
         languages.appendChild(li)
@@ -87,7 +76,7 @@ function getLanguageCode(language) {
         'Português BR': 'pt_br',
         'Inglês USA': 'us'
     };
-    return languageMap[language] || 'unknown';
+    return languageMap[language] || '';
 }
 
 function updatePortfolio(profileData) {
@@ -195,3 +184,5 @@ function updateCourse(profileData) {
 })()
 
 //https://bestof2024.openenglish.com/?id=0033r000043D6jvAAC
+//terminar css
+//arrumar "undefined"
