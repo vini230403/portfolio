@@ -41,22 +41,22 @@
 }
 
 .information .job::before {
-    background-image: url(/assets/icons/job.svg);
+    background-image: url(assets/icons/job.svg);
     background-repeat: no-repeat;
 }
 
 .information .adress::before {
-    background-image: url(/assets/icons/adress.svg);
+    background-image: url(assets/icons/adress.svg);
     background-repeat: no-repeat;
 }
 
 .information .cell::before {
-    background-image: url(/assets/icons/cell.svg);
+    background-image: url(assets/icons/cell.svg);
     background-repeat: no-repeat;
 }
 
 .information .email::before {
-    background-image: url(/assets/icons/email.svg);
+    background-image: url(assets/icons/email.svg);
     background-repeat: no-repeat;
 }
 

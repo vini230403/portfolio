@@ -41,7 +41,7 @@
     background-repeat: no-repeat;
     background-size: contain;
     margin-right: .5rem;
-    background-image: url('/assets/icons/date.svg');
+    background-image: url('assets/icons/date.svg');
     filter: brightness(0) invert(1);
 }
 

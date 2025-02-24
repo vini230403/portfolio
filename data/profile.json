@@ -9,41 +9,41 @@
     "hardSkills": [
       {
         "name": "JavaScript",
-        "logo": "/assets/icons/iconsSkills/js.svg",
+        "logo": "assets/icons/iconsSkills/js.svg",
         "class": "js"
       },
       {
         "name": "React",
-        "logo": "/assets/icons/iconsSkills/react.svg",
+        "logo": "assets/icons/iconsSkills/react.svg",
         "class": "react"
       },
       {
         "name": "TypeScript",
-        "logo": "/assets/icons/iconsSkills/ts.svg",
+        "logo": "assets/icons/iconsSkills/ts.svg",
         "class": "ts"
       },
       {"name": "HTML 5",
-        "logo": "/assets/icons/iconsSkills/html.svg",
+        "logo": "assets/icons/iconsSkills/html.svg",
         "class": "html"
       },
       {
        "name": "CSS 3",
-        "logo": "/assets/icons/iconsSkills/css.svg",
+        "logo": "assets/icons/iconsSkills/css.svg",
         "class": "css"
       },
       {
         "name": "Node.js",
-        "logo": "/assets/icons/iconsSkills/node.svg",
+        "logo": "assets/icons/iconsSkills/node.svg",
         "class": "node"
       },
       {
         "name": "GitHub",
-        "logo": "/assets/icons/iconsSkills/git.svg",
+        "logo": "assets/icons/iconsSkills/git.svg",
         "class": "git"
       },
       {
         "name": "Git",
-        "logo": "/assets/icons/iconsSkills/gitBash.svg",
+        "logo": "assets/icons/iconsSkills/gitBash.svg",
         "class": "gitbash"
       }
     ],
