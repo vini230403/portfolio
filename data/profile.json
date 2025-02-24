@@ -128,17 +128,27 @@
   "portfolio": [
     {
       "name": "Mini Blog",
-      "url": "https://github.com/vini230403/projetos_react/tree/main/MINI_BLOG/miniblog",
+      "url": "https://github.com/vini230403/miniblog",
       "github": true
     },
     {
       "name": "Git Find",
-      "url": "https://github.com/vini230403/projetos_react/tree/main/GIT_FIND/gitfind",
+      "url": "https://github.com/vini230403/gitfind",
       "github": true
     },
     {
       "name": "Git Wiki",
-      "url": "https://github.com/vini230403/projetos_react/tree/main/WIKI_GITHUB/wikigithub",
+      "url": "https://github.com/vini230403/gitwiki",
+      "github": true
+    },
+    {
+      "name": "Calculadora",
+      "url": "https://github.com/vini230403/calculadora",
+      "github": true
+    },
+    {
+      "name": "Secret Word",
+      "url": "https://github.com/vini230403/secretword",
       "github": true
     }
   ],
