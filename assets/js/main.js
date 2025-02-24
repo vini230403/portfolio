@@ -46,19 +46,30 @@ function updateLanguages(profileData) {
     
 
     profileData.languages.forEach((language, index) => {
-        
-        const [langName, level] = language.split(' (')
-        const langCode = getLanguageCode(langName)
+         
+        const{name, level, link} = language
         
         
         const li = document.createElement('li')
-        li.className = `${langCode} title`
-        li.textContent = langName
+        li.className = `${getLanguageCode(name)} title`
+        
+
+
+        if (link) {
+            const anchor = document.createElement('a');
+            anchor.href = link;
+            anchor.target = '_blank';
+            anchor.textContent = name;
+            li.appendChild(anchor);
+        } else {
+            li.textContent = name;
+        }
+
 
         
         const ul = document.createElement('ul')
         const levelItem = document.createElement('li')
-        levelItem.innerHTML = `<p>${level ? level.replace(')', '') : ''}</p>`
+        levelItem.innerHTML = `<p>${level || ''}</p>`
         ul.appendChild(levelItem)
         
         languages.appendChild(li)
@@ -76,7 +87,7 @@ function getLanguageCode(language) {
         'Português BR': 'pt_br',
         'Inglês USA': 'us'
     };
-    return languageMap[language] || '';
+    return languageMap[language] || 'unknown';
 }
 
 function updatePortfolio(profileData) {
@@ -124,7 +135,8 @@ function updateScholarity(profileData) {
     const scholarity = document.getElementById('profile.educations.scholarity')
     console.log(scholarity)
 
-    scholarity.innerHTML = profileData.educations.scholarity.map(education =>
+    scholarity.innerHTML = profileData.educations.scholarity.map((education, index) =>{
+        let educationHTML = 
         `
             <li>
                 <h3>${education.school}</h3>
@@ -132,23 +144,42 @@ function updateScholarity(profileData) {
                 <p class="date">${education.period}</p>
             </li>
         `
-    ).join('')
+        if (index < profileData.educations.scholarity.length - 1) {
+            educationHTML += '<hr>';
+        }
+
+        return educationHTML;
+    
+    }).join('')
 }
 
 function updateCourse(profileData) {
     const course = document.getElementById('profile.educations.course')
     console.log(course)
 
-    course.innerHTML = profileData.educations.course.map(education =>
+    course.innerHTML = profileData.educations.course.map((education, index) => {
+
+        const certificateHTML = education.certificate 
+            ? `<a href="${education.certificate}" target="_blank">${education.certificate}</a>` 
+            : ''
+
+        let educationsHTML =
         `
             <li>
-                <h3>${education.name}</h3>
-                <p class="study">${education.institution}</p>
+                <h3>${education.institution}</h3>
+                <p class="study">${education.name}</p>
                 <p class="date">${education.workload}</p>
-                <a href="${education.certificate}" target="_blank">${education.certificate}"</a>
+                ${certificateHTML}
             </li>
         `
-    ).join('')
+        if (index < profileData.educations.course.length - 1) {
+            educationsHTML += '<hr>';
+        }
+
+        return educationsHTML;
+
+    
+    }).join('')
 }
 
 (async () => {
