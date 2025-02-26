@@ -51,6 +51,18 @@
     filter: brightness(0) invert(1);
 }
 
+.educations li a.certificate::before{
+    content: '';
+    display: inline-block;
+    width: 1.25rem;
+    height: 1.25rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: .5rem;
+    background-image: url('../icons/certificate.svg');
+    filter: brightness(0) invert(1);
+}
+
 .educations .personal hr {
     width: 101%;
     height: 1px;  

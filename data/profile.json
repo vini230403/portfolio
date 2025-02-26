@@ -99,35 +99,35 @@
         "institution":"Instituição: Dio",
         "workload":"Carga horária: 39h - Cursando",
         "certificate_url":"https://hermes.dio.me/certificates/BYNDZGW5.pdf",
-        "certificate_completed": "Certificado de conclusão"
+        "certificate_completed":"Certificado de conclusão"
       },
       {
         "name":"React do Zero a Maestria (c/ hooks, router, API, projetos) - JavaScript, CSS, HTML5, React, vite, firebase, node.js, mongoDB, TypeScript",
         "institution":"Instituição: Udemy",
         "workload":"Carga horária: 30,5h - Concluído",
         "certificate_url":"https://www.udemy.com/certificate/UC-47eb6f0d-b4c4-44bd-bce4-eebcf5daf31d/",
-        "certificate_completed": "Certificado de conclusão"
+        "certificate_completed":"Certificado de conclusão"
       },
       {
         "name":"Formação Github Certification - Github e Gitbash",
         "institution":"Instituição: Dio",
         "workload":"Carga horária: 10h - Concluído",
         "certificate_url":"https://hermes.dio.me/certificates/INQC3YMP.pdf",
-        "certificate_completed": "Certificado de conclusão"
+        "certificate_completed":"Certificado de conclusão"
       },
       {
         "name":"Computação em Nuvem Amazon AWS - AWS",
         "institution":"Instituição: Udemy",
-        "workload":" Carga horária: 3h - Concluído",
+        "workload":"Carga horária: 3h - Concluído",
         "certificate_url":"https://www.udemy.com/certificate/UC-f7ec794a-10a8-4470-b875-7fb22dfbceb1/",
-        "certificate_completed": "Certificado de conclusão"
+        "certificate_completed":"Certificado de conclusão"
       },
       {
         "name":"Algoritmo de Lógica de Programação - C, C#, C++, Java, Python",
         "institution":"Instituição: Udemy",
-        "workload":" Carga horária: 30h - Concluído",
+        "workload":"Carga horária: 30h - Concluído",
         "certificate_url":"https://www.udemy.com/certificate/UC-cae457b6-e7d9-4540-acb6-658f21052ce9/",
-        "certificate_completed": "Certificado de conclusão"
+        "certificate_completed":"Certificado de conclusão"
       }
     ]
 
