@@ -95,7 +95,8 @@
       {
         "name":"Formação JavaScript Developer - JavaScript, HTML, CSS, API",
         "institution":"Instituição: Dio",
-        "workload":"Carga horária: 39h - Cursando"
+        "workload":"Carga horária: 39h - Cursando",
+        "certificate":"https://hermes.dio.me/certificates/BYNDZGW5.pdf"
       },
       {
         "name":"React do Zero a Maestria (c/ hooks, router, API, projetos) - JavaScript, CSS, HTML5, React, vite, firebase, node.js, mongoDB, TypeScript",
