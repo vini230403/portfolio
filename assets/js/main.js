@@ -173,8 +173,8 @@ function updateCourse(profileData) {
 
     course.innerHTML = profileData.educations.course.map((education, index) => {
 
-        const certificateHTML = education.certificate 
-            ? `<a href="${education.certificate}" target="_blank">${education.certificate}</a>` 
+        const certificateHTML = education.certificate_url && education.certificate_completed
+            ? `<a href="${education.certificate_url}" target="_blank">${education.certificate_completed}</a>` 
             : ''
 
         let educationsHTML =
