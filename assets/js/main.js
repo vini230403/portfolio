@@ -25,12 +25,15 @@ function updateProfileInfo(profileData) {
 
     const linkedin = document.getElementById('profile.linkedin')
     linkedin.innerText = profileData.linkedin
-    linkedin.href = profileData.linkedin
-
+    linkedin.href = `${profileData.linkedin}`
+    GitHub.target = "_blank";
+    GitHub.rel = "noopener noreferrer";
 
     const GitHub = document.getElementById('profile.GitHub')
     GitHub.innerText = profileData.GitHub
-    GitHub.href = profileData.GitHub
+    GitHub.href = `${profileData.GitHub}`
+    linkedin.target = "_blank";
+    linkedin.rel = "noopener noreferrer";
 
 }
 
