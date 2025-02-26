@@ -43,22 +43,39 @@
 .information .job::before {
     background-image: url('../icons/job.svg');
     background-repeat: no-repeat;
+    filter: brightness(0) invert(1);
 }
 
 .information .adress::before {
     background-image: url('../icons/adress.svg');
     background-repeat: no-repeat;
+    filter: brightness(0) invert(1);
 }
 
 .information .cell::before {
     background-image: url('../icons/cell.svg');
     background-repeat: no-repeat;
+    filter: brightness(0) invert(1);
 }
 
 .information .email::before {
     background-image: url('../icons/email.svg');
     background-repeat: no-repeat;
+    filter: brightness(0) invert(1);
 }
+
+.information .linkedin::before {
+    background-image: url('../icons/linkedin.svg');
+    background-repeat: no-repeat;
+    filter: brightness(0) invert(1);
+}
+
+.information .GitHub::before {
+    background-image: url('../icons/github.svg');
+    background-repeat: no-repeat;
+    filter: brightness(0) invert(1);
+}
+
 
 @media only screen and (min-width: 768px) {
 

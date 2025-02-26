@@ -22,6 +22,16 @@ function updateProfileInfo(profileData) {
     email.innerText = profileData.email
     email.href = `mailto:${profileData.email}`
 
+
+    const linkedin = document.getElementById('profile.linkedin')
+    linkedin.innerText = profileData.linkedin
+    linkedin.href = profileData.linkedin
+
+
+    const GitHub = document.getElementById('profile.GitHub')
+    GitHub.innerText = profileData.GitHub
+    GitHub.href = profileData.GitHub
+
 }
 
 function updateSoftSkills(profileData) {
