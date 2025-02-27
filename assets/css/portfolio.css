@@ -49,11 +49,9 @@
     margin-top: 0;
 }
 
-
-/* Estilo do carrossel */
 .swiper {
-    width: 100%;
-    max-width: 600px;
+    width: 150%;
+    max-width: 800px;
     margin: 20px auto;
 }
 
@@ -61,6 +59,9 @@
     width: 100%;
     height: auto;
     display: block;
+    image-rendering: crisp-edges;
+    object-fit: cover;
+    object-position: center;
 }
 
 .swiper-button-next,
