@@ -137,27 +137,51 @@
     {
       "name": "Mini Blog",
       "url": "https://github.com/vini230403/miniblog",
-      "github": true
+      "github": true,
+      "images": [
+        "assets/puclic/miniblogHome.png",
+        "assets/puclic/miniblogLogin.png",
+        "assets/puclic/miniblogCadastrar.png",
+        "assets/puclic/miniblogAbout.png",
+        "assets/puclic/miniblogCriandoPost.png",
+        "assets/puclic/miniblogCriadoPost.png"
+      ]
     },
     {
       "name": "Git Find",
       "url": "https://github.com/vini230403/gitfind",
-      "github": true
+      "github": true,
+      "images": [
+        "assets/puclic/gitfind.png",
+        "assets/puclic/gitfindsearch.png"
+      ]
     },
     {
       "name": "Git Wiki",
       "url": "https://github.com/vini230403/gitwiki",
-      "github": true
+      "github": true,
+      "images": [
+        "assets/puclic/gitwiki.png",
+        "assets/puclic/gitwikisearch.png"
+      ]
     },
     {
       "name": "Calculadora",
       "url": "https://github.com/vini230403/calculadora",
-      "github": true
+      "github": true,
+      "images": [
+        "assets/puclic/calculadora.png"
+      ]
     },
     {
       "name": "Secret Word",
       "url": "https://github.com/vini230403/secretword",
-      "github": true
+      "github": true,
+      "images": [
+        "assets/puclic/secretwordStart.png",
+        "assets/puclic/secretwordGame.png",
+        "assets/puclic/secretwordGameOver.png"
+      ]
     }
   ],
   "professionalExperience": [
