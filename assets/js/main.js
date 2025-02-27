@@ -110,13 +110,36 @@ function updatePortfolio(profileData) {
     const portfolio = document.getElementById('profile.portfolio')
 
     portfolio.innerHTML = profileData.portfolio.map((project, index) => {
+        
+        const carouselHTML = `
+            <div class="swiper project-carousel-${index}">
+                <div class="swiper-wrapper">
+                    ${project.images
+                        .map(
+                            (image) => `
+                                <div class="swiper-slide">
+                                    <img src="${image}" alt="${project.name}" />
+                                </div>
+                            `
+                        )
+                        .join("")}
+                </div>
+                <!-- Paginação -->
+                <div class="swiper-pagination"></div>
+                <!-- Navegação -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        `
+
+
         let projectHTML = `
             <li>
                 <h3 ${project.github ? 'class="github"' : ''}>${project.name}</h3>
                 <a href="${project.url}" target="_blank">${project.url}</a>
-                <img src="${project.image} alt="${project.name} >
+                ${carouselHTML}
             </li>
-        `;
+        `
 
         
         if (index < profileData.portfolio.length - 1) {
@@ -125,6 +148,21 @@ function updatePortfolio(profileData) {
 
         return projectHTML;
     }).join('');
+
+    profileData.portfolio.forEach((_, index) => {
+        new Swiper(`.project-carousel-${index}`, {
+            loop: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev"
+            }
+        });
+    });
+
 }
 
 function updateProfessionalExperience(profileData) {
