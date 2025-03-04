@@ -92,7 +92,9 @@
       {
         "name":"Formação React Developer - JavaScript, React, TypeScript",
         "institution":"Instituição: Dio",
-        "workload":"Carga horária: 34h - Cursando"
+        "workload":"Carga horária: 34h - Concluído",
+        "certificate_url":"https://hermes.dio.me/certificates/RM8ISPMZ.pdf",
+        "certificate_completed":"Certificado de conclusão"
       },
       {
         "name":"Formação JavaScript Developer - JavaScript, HTML, CSS, API",
