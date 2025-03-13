@@ -65,6 +65,33 @@
     padding: -1rem;
 }
 
+@media (max-width: 768px) { /* Ajustes para telas menores */
+    .swiper-slide img {
+        width: 80%;
+        height: auto;
+    }
+
+    .swiper-slide {
+        padding-right: 15%; /* Move a imagem ligeiramente para a direita */
+    }
+
+    .swiper-pagination {
+        position: absolute;
+        bottom: 10px; 
+        left: 10%;
+        transform: translateX(-15%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .swiper-button-next,
+    .swiper-button-prev {
+        display: none !important; /* Oculta as setas no celular */
+    }
+}
+
 .swiper-button-next,
 .swiper-button-prev {
     color: #000;
