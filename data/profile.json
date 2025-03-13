@@ -85,6 +85,16 @@
     ],
     "course": [
       {
+        "name":"Pro Figma Web | UI Design de sites e sistemas web com Figma",
+        "institution":"Instituição: Dio",
+        "workload":"Carga horária: 14h - Cursando"
+      },
+      {
+        "name":"Formação HTML Web Developer ",
+        "institution":"Instituição: Dio",
+        "workload":"Carga horária: 21h - Cursando"
+      },
+      {
         "name":"Desenvolvimento Web Avançado com PHP, Laravel e Vue.JS",
         "institution":"Instituição: Udemy",
         "workload":"Carga horária: 57h - Cursando"
@@ -136,6 +146,24 @@
     
   },
   "portfolio": [
+    {
+      "name": "Milvus",
+      "url": "https://github.com/vini230403/milvus",
+      "github": true,
+      "images": [
+        "assets/public/tproxy.png"
+      ]
+    },
+    {
+      "name": "Screen Login",
+      "url": "https://github.com/vini230403/screenlogin",
+      "github": true,
+      "images": [
+        "assets/public/loginHome.png",
+        "assets/public/loginCadastrar.png",
+        "assets/public/loginLogin.png"
+      ]
+    },
     {
       "name": "Mini Blog",
       "url": "https://github.com/vini230403/miniblog",
