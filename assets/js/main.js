@@ -137,6 +137,7 @@ function updatePortfolio(profileData) {
             <li>
                 <h3 ${project.github ? 'class="github"' : ''}>${project.name}</h3>
                 <a href="${project.url}" target="_blank">${project.url}</a>
+                ${project.urlPage ? `<br><a href="${project.urlPage}" target="_blank">Ver Página</a>` : ""}
                 ${carouselHTML}
             </li>
         `

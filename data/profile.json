@@ -147,6 +147,17 @@
   },
   "portfolio": [
     {
+      "name": "Landing Page CSS",
+      "url": "https://github.com/vini230403/csspage",
+      "urlPage": "https://vini230403.github.io/csspage/",
+      "github": true,
+      "images": [
+        "assets/public/cssSection1.png",
+        "assets/public/cssSection2.png",
+        "assets/public/cssSection3.png"
+      ]
+    },
+    {
       "name": "Milvus",
       "url": "https://github.com/vini230403/milvus",
       "github": true,
