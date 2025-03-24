@@ -85,12 +85,17 @@
     ],
     "course": [
       {
-        "name":"Pro Figma Web | UI Design de sites e sistemas web com Figma",
-        "institution":"Instituição: Dio",
-        "workload":"Carga horária: 14h - Cursando"
+        "name":"Start na Programação",
+        "institution":"Instituição: OneBitCode",
+        "workload":"Carga horária: 3h15 - Cursando"
       },
       {
-        "name":"Formação HTML Web Developer ",
+        "name":"Formação CSS Web Developer",
+        "institution":"Instituição: Dio",
+        "workload":"Carga horária: 43h - Cursando"
+      },
+      {
+        "name":"Formação HTML Web Developer",
         "institution":"Instituição: Dio",
         "workload":"Carga horária: 21h - Cursando"
       },
@@ -98,6 +103,13 @@
         "name":"Desenvolvimento Web Avançado com PHP, Laravel e Vue.JS",
         "institution":"Instituição: Udemy",
         "workload":"Carga horária: 57h - Cursando"
+      },
+      {
+        "name":"Pro Figma Web | UI Design de sites e sistemas web com Figma",
+        "institution":"Instituição: Udemy",
+        "workload":"Carga horária: 14h - Concluído",
+        "certificate_url":"https://www.udemy.com/certificate/UC-287c1d3f-28d3-437e-aed3-cab2f62b3f5d/",
+        "certificate_completed":"Certificado de conclusão"
       },
       {
         "name":"Formação React Developer - JavaScript, React, TypeScript",
@@ -153,8 +165,7 @@
       "github": true,
       "images": [
         "assets/public/cssSection1.png",
-        "assets/public/cssSection2.png",
-        "assets/public/cssSection3.png"
+        "assets/public/cssSection2.png"
       ]
     },
     {
