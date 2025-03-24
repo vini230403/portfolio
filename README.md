@@ -5,6 +5,7 @@ Bem-vindo ao repositório do meu portfólio pessoal! Aqui você encontrará info
 Este portfólio foi criado para apresentar meus trabalhos, experiências e habilidades de forma profissional e interativa. A interface foi desenvolvida com um design moderno e responsivo, garantindo uma navegação intuitiva e agradável.
 
 🛠 Tecnologias Utilizadas
+
 HTML5 – Estrutura semântica da página
 
 CSS3 – Estilização, animações e layout responsivo
